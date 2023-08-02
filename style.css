@@ -33,8 +33,9 @@
 	cursor: default;
 }
 .card:hover{
-	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-	transform: translateY(-3%);
+
+      transform: rotateY(0.5turn);
+
 }
 .card img{
 	width: 100%;
@@ -111,5 +112,10 @@ nav ul li:hover {
   background: #eca023;
 }
 
+iframe {
+	border: 4;
+}
 
 /*Fin-Cards*/
+
+
